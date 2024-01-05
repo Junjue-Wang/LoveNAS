@@ -1,4 +1,4 @@
-<h2 align="center">LoveNAS: Hierarchically Search for Adaptive Neural Network in Remote Sensing Land-cover Mapping</h2>
+<h2 align="center">LoveNAS: Towards Multi-Scene Land-Cover Mapping via Hierarchical Searching Adaptive Network</h2>
 
 
 <h5 align="right">by <a href="https://junjue-wang.github.io/homepage/">Junjue Wang</a>, <a href="http://rsidea.whu.edu.cn/">Yanfei Zhong</a>, <a href="http://zhuozheng.top/">Zhuo Zheng</a>, Yuting Wan, Ailong Ma and Liangpei Zhang</h5>
