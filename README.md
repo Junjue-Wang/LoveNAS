@@ -3,11 +3,11 @@
 
 <h5 align="right">by <a href="https://junjue-wang.github.io/homepage/">Junjue Wang</a>, <a href="http://rsidea.whu.edu.cn/">Yanfei Zhong</a>, <a href="http://zhuozheng.top/">Zhuo Zheng</a>, Yuting Wan, Ailong Ma and Liangpei Zhang</h5>
 
-This is a private implementation of LoveNAS.
+This is an official implementation of LoveNAS.
 ---------------------
 
 <div align="center">
-  <img width="80%" src="https://github.com/Junjue-Wang/resources/blob/main/LoveNAS/framework.png?raw=true">
+  <img width="100%" src="https://github.com/Junjue-Wang/resources/blob/main/LoveNAS/framework.png?raw=true">
 </div>
 
 
@@ -47,10 +47,10 @@ Submit the test results to [LoveDA Semantic Segmentation Challenge](https://coda
 
 | Search-Config |     Backbone    | Train-Config | Params (M) |mIoU(%) | Download |
 |:----------:|:---------------:|:------------:|:-------:|:-------:|:--------:|
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/nas_mobilenet_lovedecoder.py)           |   MobileNetV2   | [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/train_mobilenet_lovedecoder.py)     |  3.837      |  50.60  |   [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)   |
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/nas_resnet_lovedecoder.py)           |    ResNet-50    | [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/train_resnet_lovedecoder.py)           | 30.491 |  52.34  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/nas_efnet_lovedecoder.py)           | EfficientNet-B3 |  [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/train_efnet_lovedecoder.py)      | 14.190     |  52.05  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/nas_swin_lovedecoder.py)           |    Swin-Base    |  [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/loveda/train_swin_lovedecoder.py)        | 92.435   |  53.76  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/nas_mobilenet_lovedecoder.py)           |   MobileNetV2   | [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/train_mobilenet_lovedecoder.py)     |  3.837      |  50.60  |   [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)   |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/nas_resnet_lovedecoder.py)           |    ResNet-50    | [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/train_resnet_lovedecoder.py)           | 30.491 |  52.34  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/nas_efnet_lovedecoder.py)           | EfficientNet-B3 |  [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/train_efnet_lovedecoder.py)      | 14.190     |  52.05  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/nas_swin_lovedecoder.py)           |    Swin-Base    |  [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/loveda/train_swin_lovedecoder.py)        | 92.435   |  53.76  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
 
 ### FloodNet
 The FloodNet dataset can be downloaded [here](https://drive.google.com/drive/folders/1sZZMJkbqJNbHgebKvHzcXYZHJd6ss4tH).
@@ -59,10 +59,10 @@ The train data should be prepared using [prepare_floodnet.py](https://github.com
 
 | Search-Config |     Backbone    | Train-Config | Params (M) |mIoU(%) | Download |
 |:----------:|:---------------:|:------------:|:-------:|:-------:|:--------:|
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/nas_mobilenet_lovedecoder.py)           |   MobileNetV2   | [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/train_mobilenet_lovedecoder.py)              | 12.072 |70.73  |   [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)   |
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/nas_resnet_lovedecoder.py)           |    ResNet-50    | [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/train_resnet_lovedecoder.py)             | 38.457 |72.54  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)          |
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/nas_efnet_lovedecoder.py)           | EfficientNet-B3 |  [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/train_efnet_lovedecoder.py)            | 18.851  |72.69  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
-| [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/nas_swin_lovedecoder.py)           |    Swin-Base    |  [config](https://github.com/Junjue-Wang/LoveNAS_Private/blob/master/configs/lovenas/floodnet/train_swin_lovedecoder.py)            | 97.701 |73.79  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/nas_mobilenet_lovedecoder.py)           |   MobileNetV2   | [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/train_mobilenet_lovedecoder.py)              | 12.072 |70.73  |   [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)   |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/nas_resnet_lovedecoder.py)           |    ResNet-50    | [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/train_resnet_lovedecoder.py)             | 38.457 |72.54  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)          |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/nas_efnet_lovedecoder.py)           | EfficientNet-B3 |  [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/train_efnet_lovedecoder.py)            | 18.851  |72.69  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
+| [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/nas_swin_lovedecoder.py)           |    Swin-Base    |  [config](https://github.com/Junjue-Wang/LoveNAS/blob/master/configs/lovenas/floodnet/train_swin_lovedecoder.py)            | 97.701 |73.79  | [log&ckpt](https://pan.baidu.com/s/1DLKiVhVQ7KpBDk6JXHi9BA?pwd=2333) (pwd:2333)         |
 
 
 ## Citation
