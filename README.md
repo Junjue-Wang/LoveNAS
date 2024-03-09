@@ -68,6 +68,15 @@ The train data should be prepared using [prepare_floodnet.py](https://github.com
 ## Citation
 If you use LoveNAS in your research, please cite the following papers.
 ```text
+    @article{wang2024lovenas,
+      title={LoveNAS: Towards multi-scene land-cover mapping via hierarchical searching adaptive network},
+      author={Wang, Junjue and Zhong, Yanfei and Ma, Ailong and Zheng, Zhuo and Wan, Yuting and Zhang, Liangpei},
+      journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+      volume={209},
+      pages={265--278},
+      year={2024},
+      publisher={Elsevier}
+    }
     @inproceedings{wang2021loveda,
         title={Love{DA}: A Remote Sensing Land-Cover Dataset for Domain Adaptive Semantic Segmentation},
         author={Junjue Wang and Zhuo Zheng and Ailong Ma and Xiaoyan Lu and Yanfei Zhong},
