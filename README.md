@@ -4,7 +4,8 @@
 <h5 align="right">by <a href="https://junjue-wang.github.io/homepage/">Junjue Wang</a>, <a href="http://rsidea.whu.edu.cn/">Yanfei Zhong</a>, <a href="http://zhuozheng.top/">Zhuo Zheng</a>, Yuting Wan, Ailong Ma and Liangpei Zhang</h5>
 
 [[`Paper`](https://www.researchgate.net/publication/378269147_LoveNAS_Towards_multi-scene_land-cover_mapping_via_hierarchical_searching_adaptive_network)],
-[[`Dataset`](https://doi.org/10.5281/zenodo.5706578)]
+[[`Dataset`](https://doi.org/10.5281/zenodo.5706578)],
+[[`BibTeX`](https://github.com/Junjue-Wang/LoveNAS?tab=readme-ov-file#citation)]
 
 
 This is an official implementation of LoveNAS.
